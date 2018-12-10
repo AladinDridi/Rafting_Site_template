@@ -1,0 +1,45 @@
+.contactcontent{
+display: flex;
+flex-direction: row;
+}
+.articles .contentimages{
+display: flex;
+flex-direction: column;
+margin-left: 52px;
+margin-top: 50px;
+}
+.articles .contentimages .titleimage {
+width: 700px;
+}
+.articles .contentimages .map{
+width: 802px;
+height: 450px;   
+margin-top: 20px;
+
+}
+.articles .contentaside {
+width: 60px;
+height: 200px;
+background-color: #beb7b7;
+position: fixed;
+top: 250;
+right: 0px;
+cursor: pointer;
+}
+.articles .contentaside img{
+width: 40px;
+height: 40px;
+margin-left: 4px;
+}
+.articles .contentaside p{
+writing-mode: vertical-rl;
+text-orientation: mixed;
+font-family: Arial;
+color:  #f8f2f2;
+font-size: 20px;
+font-weight: 700;
+text-align: right;
+letter-spacing: 8px;
+margin-left: 8px;
+
+}

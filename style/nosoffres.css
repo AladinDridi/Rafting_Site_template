@@ -1,0 +1,49 @@
+body{
+background-color: #cbc7c7;
+}
+.articles .content {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.sections{
+height: 1000px;
+}
+.articles .content .item{
+width:49%;  
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+margin-top: 50px;
+
+}
+.articles .content .item .productbg{
+width: auto;
+height: 500px;
+background-image: url('../img/raftoffre.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center:
+}
+.articles .content .item .puboffre{
+width: 200px;
+height: 200px;
+position: relative;
+top: -480px;
+left: 30px;
+}
+.articles .content .item button{
+background-color:  #e03636;
+width: 95%;
+height: 17%;
+border-radius: 8px;
+position: relative;
+top: -200px;
+left: 20px;
+font-family: 'Myriad Pro';
+color:  #f6c9c9;
+font-size: 80px;
+font-weight: 700;
+font-style: italic;
+text-align: center;
+}
